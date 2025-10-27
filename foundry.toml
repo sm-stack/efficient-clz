@@ -1,7 +1,38 @@
 [profile.default]
-src = "src"
+src = "test"
 out = "out"
 libs = ["lib"]
 via_ir = true
+evm_version = "osaka"
+optimizer = true
+optimizer_runs = 10000000
+
+[profile.oldlibzip]
+src = "src/oldLibZip"
+out = "out"
+via_ir = true
+optimizer = true
+optimizer_runs = 10000000
+
+[profile.newlibzip]
+src = "src/newLibZip"
+out = "out"
+via_ir = true
+optimizer = true
+optimizer_runs = 10000000
+
+[profile.oldfloorsqrt]
+src = "src/oldFloorSqrt"
+out = "out"
+via_ir = true
+optimizer = true
+optimizer_runs = 10000000
+
+[profile.newfloorsqrt]
+src = "src/newFloorSqrt"
+out = "out"
+via_ir = true
+optimizer = true
+optimizer_runs = 10000000
 
 # See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options

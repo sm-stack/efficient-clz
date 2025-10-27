@@ -1,4 +1,0 @@
-CounterTest:test_compress_afterFusaka_byte1() (gas: 11122)
-CounterTest:test_compress_afterFusaka_byte2() (gas: 7458)
-CounterTest:test_compress_beforeFusaka_byte1() (gas: 63769)
-CounterTest:test_compress_beforeFusaka_byte2() (gas: 10493)
